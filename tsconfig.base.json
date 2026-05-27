@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@h-gpt/ui": ["packages/ui/src"],
+      "@h-gpt/types": ["packages/types/src"],
+      "@h-gpt/request": ["packages/request/src"],
+      "@h-gpt/utils": ["packages/utils/src"],
+      "@h-gpt/prompt-engine": ["packages/prompt-engine/src"],
+      "@h-gpt/workflow-core": ["packages/workflow-core/src"]
+    }
+  }
+}
