@@ -91,7 +91,6 @@ export function ConversationSidebar() {
           <>
             <div>
               <strong>南宫问天</strong>
-              <span>Plus</span>
             </div>
             <button className="icon-button ghost" type="button" onClick={logout} aria-label="Logout">
               <LogOut size={18} />
